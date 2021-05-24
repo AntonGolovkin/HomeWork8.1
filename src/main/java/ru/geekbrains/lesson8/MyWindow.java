@@ -35,7 +35,7 @@ public class MyWindow extends JFrame {
         button1.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-               
+                textField.setText("Программа загадала новое число от 1 до 10");
                 randomNumber = (int)(Math.random() * 10) + 1;
 
             }
